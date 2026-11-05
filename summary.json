@@ -1,0 +1,23 @@
+{
+  "data_file": "data/cars.csv",
+  "rows_raw": 6040,
+  "rows_clean": 5950,
+  "train_rows": 4760,
+  "test_rows": 1190,
+  "best_model": "LightGBM (tuned)",
+  "best_params": {
+    "reg__subsample": 0.7,
+    "reg__num_leaves": 15,
+    "reg__n_estimators": 900,
+    "reg__min_child_samples": 10,
+    "reg__learning_rate": 0.05,
+    "reg__colsample_bytree": 0.85
+  },
+  "test_metrics": {
+    "MAE (lakh)": 0.8498,
+    "RMSE (lakh)": 1.5039,
+    "R2": 0.9855,
+    "MAPE (%)": 7.1152,
+    "CV RMSE (log price)": 0.088
+  }
+}
